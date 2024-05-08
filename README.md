@@ -4,9 +4,10 @@ Este repositório é dedicado à atividade avaliativa de cálculos de área, cor
 
 ## Problema 1 – Modelagem do Crescimento de Usuários em uma Aplicação Web
 
-Suponha que você seja um analista de dados de uma aplicação web e está encarregado de modelar o crescimento de usuários ao longo do tempo. Você coletou dados que sugerem que o número de usuários ativos na aplicação web aumenta de acordo com a função $ f(t) = 50e^{0.1t} $, onde $ t $ é o tempo em meses desde o lançamento da aplicação e $ f(t) $ é a taxa de crescimento (em milhares de pessoas por mês).
+Suponha que você seja um analista de dados de uma aplicação web e está encarregado de modelar o crescimento de usuários ao longo do tempo. Você coletou dados que sugerem que o número de usuários ativos na aplicação web aumenta de acordo com a função \( f(t) = 50e^{0.1t} \), onde \( t \) é o tempo em meses desde o lançamento da aplicação e \( f(t) \) é a taxa de crescimento (em milhares de pessoas por mês).
 
-Vamos definir $ F(t) $ como a função que representa a integral indefinida de $ f(t) $ em relação a $ t $. Note que $ F(t) $ é o número total de usuários (em milhares) que se juntaram à aplicação web desde seu lançamento, ou seja, nos fornece a função acumulada de usuários ao longo do tempo.
+Vamos definir \( F(t) \) como a função que representa a integral indefinida de \( f(t) \) em relação a \( t \). Note que \( F(t) \) é o número total de usuários (em milhares) que se juntaram à aplicação web desde seu lançamento, ou seja, nos fornece a função acumulada de usuários ao longo do tempo.
+
 
 
 ### a) Com auxílio de software, faça o gráfico da função $f(t)$ para $t<30$.
