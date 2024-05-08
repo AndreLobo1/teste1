@@ -144,14 +144,16 @@ $$
 \text{Taxa de crescimento} = \left( \frac{7.87}{5.27} - 1 \right) \times 100\%
 $$
 $$
-= \left( \frac{7.87}{5.27} - 1 \right) \times 100\%
-$$
-$$
-= \left( \frac{7.87}{5.27} - \frac{5.27}{5.27} \right) \times 100\%
-$$
-$$
 = \left( \frac{7.87 - 5.27}{5.27} \right) \times 100\%
 $$
 $$
 = \left( \frac{2.6}{5.27} \right) \times 100\%
 $$
+
+Agora, vamos calcular o valor numérico:
+
+$$
+= 49.34\%
+$$
+
+Portanto, a taxa de crescimento do tempo total de pesquisa, considerando os primeiros 2 segundos da pesquisa e depois o segundo 2 segundos de pesquisa, é de aproximadamente **49.34%**.
