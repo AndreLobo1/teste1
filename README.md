@@ -39,88 +39,88 @@ Para encontrar o número de meses necessários para a aplicação atingir 300 mi
 
 # Problema 2 – Otimizando o Tempo de Resposta de uma Aplicação Web
 
-Suponha que você seja um desenvolvedor de uma aplicação web e esteja encarregado de otimizar o tempo de resposta de uma funcionalidade de pesquisa. Atualmente, o tempo de resposta médio para uma pesquisa é modelado pela função \( f(t) = 0.1t^2 + 0.5t + 2 \), onde \( t \) é o tempo decorrido desde o início da pesquisa em segundos.
+Suponha que você seja um desenvolvedor de uma aplicação web e esteja encarregado de otimizar o tempo de resposta de uma funcionalidade de pesquisa. Atualmente, o tempo de resposta médio para uma pesquisa é modelado pela função $f(t) = 0.1t^2 + 0.5t + 2$, onde $t$ é o tempo decorrido desde o início da pesquisa em segundos.
 
-A integral definida de \( f(t) \) em um intervalo [a, b] fornece o tempo total gasto na sessão de pesquisa. Por exemplo, se calcularmos a integral definida de \( f(t) \) entre 0 e 10 segundos, obteremos o tempo total gasto pelos usuários durante o período específico. Isto nos permite comparar diferentes intervalos de tempos e identificar quais parte da sessão de pesquisa estão contribuindo mais para o tempo total de resposta.
+A integral definida de $f(t)$ em um intervalo [a, b] fornece o tempo total gasto na sessão de pesquisa. Por exemplo, se calcularmos a integral definida de $f(t)$ entre 0 e 10 segundos, obteremos o tempo total gasto pelos usuários durante o período específico. Isto nos permite comparar diferentes intervalos de tempos e identificar quais parte da sessão de pesquisa estão contribuindo mais para o tempo total de resposta.
 
-## a) Calcule a integral definida de \( f(t) \) nos primeiros 2s iniciais da pesquisa.
+## a) Calcule a integral definida de $f(t)$ nos primeiros 2s iniciais da pesquisa.
 
-Para calcular a integral definida de \( f(t) \) nos primeiros 2 segundos, vamos integrar \( f(t) \) de 0 a 2 segundos:
+Para calcular a integral definida de $f(t)$ nos primeiros 2 segundos, vamos integrar $f(t)$ de 0 a 2 segundos:
 
-\[
-\int_{0}^{2} (0.1t^2 + 0.5t + 2) dt
-\]
+$$
+\int_{0}^{2} (0.1t^2 + 0.5t + 2) \, dt
+$$
 
 Integrando termo a termo, obtemos:
 
-\[
+$$
 = \left[ \frac{0.1}{3}t^3 + \frac{0.5}{2}t^2 + 2t \right]_{0}^{2}
-\]
-\[
+$$
+$$
 = \left[ \frac{0.1}{3}(2)^3 + \frac{0.5}{2}(2)^2 + 2(2) \right] - \left[ \frac{0.1}{3}(0)^3 + \frac{0.5}{2}(0)^2 + 2(0) \right]
-\]
-\[
+$$
+$$
 = \left[ \frac{0.1}{3}(8) + \frac{0.5}{2}(4) + 4 \right] - 0
-\]
-\[
+$$
+$$
 = \left[ \frac{8}{30} + \frac{2}{2} + 4 \right]
-\]
-\[
+$$
+$$
 = \left[ \frac{8}{30} + 1 + 4 \right]
-\]
-\[
+$$
+$$
 = \frac{8}{30} + 1 + 4
-\]
-\[
+$$
+$$
 = \frac{8}{30} + \frac{30}{30} + \frac{120}{30}
-\]
-\[
-= \frac{158}{30} \approx 5.27 \text{ segundos}
-\]
+$$
+$$
+= \frac{158}{30} \approx 5.27 \, \text{segundos}
+$$
 
-## b) Calcule a integral definida de \( f(t) \) entre o intervalo de tempo de 2s a 4s.
+## b) Calcule a integral definida de $f(t)$ entre o intervalo de tempo de 2s a 4s.
 
-Agora, para calcular a integral definida de \( f(t) \) entre 2 segundos e 4 segundos:
+Agora, para calcular a integral definida de $f(t)$ entre 2 segundos e 4 segundos:
 
-\[
-\int_{2}^{4} (0.1t^2 + 0.5t + 2) dt
-\]
+$$
+\int_{2}^{4} (0.1t^2 + 0.5t + 2) \, dt
+$$
 
 Integrando novamente termo a termo:
 
-\[
+$$
 = \left[ \frac{0.1}{3}t^3 + \frac{0.5}{2}t^2 + 2t \right]_{2}^{4}
-\]
-\[
+$$
+$$
 = \left[ \frac{0.1}{3}(4)^3 + \frac{0.5}{2}(4)^2 + 2(4) \right] - \left[ \frac{0.1}{3}(2)^3 + \frac{0.5}{2}(2)^2 + 2(2) \right]
-\]
-\[
+$$
+$$
 = \left[ \frac{0.1}{3}(64) + \frac{0.5}{2}(16) + 8 \right] - \left[ \frac{0.1}{3}(8) + \frac{0.5}{2}(4) + 4 \right]
-\]
-\[
+$$
+$$
 = \left[ \frac{6.4}{3} + \frac{8}{2} + 8 \right] - \left[ \frac{0.8}{3} + 2 + 4 \right]
-\]
-\[
+$$
+$$
 = \left[ \frac{6.4}{3} + 4 + 8 \right] - \left[ \frac{0.8}{3} + 6 \right]
-\]
-\[
+$$
+$$
 = \frac{6.4}{3} + 12 - \frac{0.8}{3} - 6
-\]
-\[
+$$
+$$
 = \frac{6.4}{3} - \frac{0.8}{3} + 12 - 6
-\]
-\[
+$$
+$$
 = \frac{6.4 - 0.8}{3} + 6
-\]
-\[
+$$
+$$
 = \frac{5.6}{3} + 6
-\]
-\[
+$$
+$$
 = \frac{5.6}{3} + \frac{18}{3}
-\]
-\[
-= \frac{23.6}{3} \approx 7.87 \text{ segundos}
-\]
+$$
+$$
+= \frac{23.6}{3} \approx 7.87 \, \text{segundos}
+$$
 
 ## c) Calcule a taxa de crescimento (em porcentagem) do tempo total de pesquisa considerando os primeiros 2s da pesquisa e depois o segundo 2s de pesquisa.
 
@@ -128,33 +128,24 @@ A taxa de crescimento do tempo total de pesquisa pode ser calculada comparando o
 
 A taxa de crescimento é dada por:
 
-\[
+$$
 \text{Taxa de crescimento} = \left( \frac{\text{Tempo total nos segundos 2}}{\text{Tempo total nos primeiros 2}} - 1 \right) \times 100\%
-\]
+$$
 
 Substituindo os valores:
 
-\[
+$$
 \text{Taxa de crescimento} = \left( \frac{7.87}{5.27} - 1 \right) \times 100\%
-\]
-\[
+$$
+$$
 = \left( \frac{7.87}{5.27} - 1 \right) \times 100\%
-\]
-\[
+$$
+$$
 = \left( \frac{7.87}{5.27} - \frac{5.27}{5.27} \right) \times 100\%
-\]
-\[
+$$
+$$
 = \left( \frac{7.87 - 5.27}{5.27} \right) \times 100\%
-\]
-\[
+$$
+$$
 = \left( \frac{2.6}{5.27} \right) \times 100\%
-\]
-\[
-\approx 49.34\%
-\]
-
-Portanto, a taxa de crescimento do tempo total de pesquisa é de aproximadamente 49.34%.
-
-## Conclusão
-
-Através desta atividade, pudemos explorar a aplicação prática do cálculo integral e diferencial na modelagem do crescimento de usuários em uma aplicação web. A matemática, e em particular o cálculo, fornece ferramentas poderosas que nos permitem entender e modelar fenômenos complexos no mundo real. Ao aplicar essas ferramentas, somos capazes de fazer previsões precisas e informadas que podem ajudar a orientar a tomada de decisões e otimizar o desempenho. Continuaremos a explorar essas aplicações em atividades futuras.
+$$
