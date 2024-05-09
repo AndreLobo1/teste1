@@ -1,6 +1,6 @@
 # Atividade Avaliativa de Cálculos de Área
 
-Este repositório é dedicado à atividade avaliativa de cálculos de área, correspondente à terceira semana da segunda sprint do módulo 2 do Inteli - Instituto de Tecnologia e Liderança. O foco desta atividade é a matemática e a física. Neste contexto, aceitamos o desafio de explorar como as integrais indefinidas e definidas podem ser aplicadas em problemas de aplicação web.
+Este repositório é dedicado à atividade avaliativa de cálculos de área, correspondente à quarta semana da segunda sprint do módulo 2 do [Inteli - Instituto de Tecnologia e Liderança](https://www.inteli.edu.br/). O foco desta atividade é a **matemática e a física**. Neste contexto, aceitamos o desafio de explorar como as integrais indefinidas e definidas podem ser aplicadas em problemas de aplicação web.
 
 ## Problema 1 – Modelagem do Crescimento de Usuários em uma Aplicação Web
 
@@ -10,7 +10,7 @@ Vamos definir $F(t)$ como a função que representa a integral indefinida de $f(
 
 ### a) Com auxílio de software, faça o gráfico da função f(t) para t<30.
 
-Para fazer o gráfico da função $f(t) = 50e^{0.1t}$ para $t < 30$, você pode usar um software de plotagem gráfica como o Matplotlib em Python. Aqui está um exemplo de código que você pode usar para gerar o gráfico:
+Nós geramos o gráfico da função $f(t) = 50e^{0.1t}$ para $t < 30$ utilizando a biblioteca [Matplotlib](https://matplotlib.org/) na plataforma Python. O código a seguir foi usado para criar o gráfico:
 
 ```python
 import matplotlib.pyplot as plt
@@ -27,7 +27,11 @@ plt.grid(True)
 plt.show()
 ```
 
+Este código cria um conjunto de valores para t variando de 0 a 30, calcula os correspondentes valores de $f(t)$, e então plota $f(t)$ versus $t$. O resultado é um gráfico que visualiza como a taxa de crescimento de usuários muda ao longo do tempo.
+
 ![Gráfico de f(t)](graph.png)
+
+
 
 ### b) Determine o número de meses necessário para dobrar a taxa de crescimento inicial do número de usuários da aplicação web.
 
