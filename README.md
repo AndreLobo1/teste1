@@ -57,7 +57,7 @@ $$
 
 ### c) Encontre a função F(t). Discuta o significado da constante que aparecerá na integração indefinida. O que é necessário saber para definir o valor da constante?
 
-A função $$F(t)$$ é a integral indefinida de $$f(t)$$. Portanto, temos:
+A função $F(t)$ é a integral indefinida de $f(t)$. Portanto, temos:
 
 $$
 F(t) = \int f(t) dt
@@ -69,7 +69,7 @@ $$
 F(t) = \int 50e^{0.1t} dt
 $$
 
-A integral de $$50e^{0.1t}$$ é $$500e^{0.1t}$$, então temos:
+A integral de $50e^{0.1t}$ é $500e^{0.1t}$, então temos:
 
 $$
 F(t) = 500e^{0.1t} + C
