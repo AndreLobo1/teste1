@@ -76,16 +76,13 @@ F(t) = 500e^{0.1t} + C
 $$
 
 onde $$C$$ é a constante de integração. O valor de $$C$$ depende das condições iniciais do problema. No nosso caso, como o número de usuários era nulo no lançamento da aplicação, temos:
+$C = 0$
 
-$$
-C = 0
-$$
-
-A constante de integração representa o valor inicial da função acumulada de usuários ao longo do tempo. Se tivéssemos um número diferente de usuários no lançamento da aplicação, esse número seria representado pela constante $$C$$.
+A constante de integração representa o valor inicial da função acumulada de usuários ao longo do tempo. Se tivéssemos um número diferente de usuários no lançamento da aplicação, esse número seria representado pela constante $C$.
 
 ### d) Quantos meses são necessários para a aplicação atingir 300 mil usuários considerando que no lançamento da aplicação o número de usuários era nulo.
 
-Para encontrar o número de meses necessários para a aplicação atingir 300 mil usuários, precisamos resolver a equação $$500e^{0.1t} = 300$$ para $$t$$. Isso nos dá:
+Para encontrar o número de meses necessários para a aplicação atingir 300 mil usuários, precisamos resolver a equação $500e^{0.1t} = 300$ para $t$. Isso nos dá:
 
 $$
 500e^{0.1t} = 300
