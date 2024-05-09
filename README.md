@@ -10,7 +10,7 @@ Vamos definir $F(t)$ como a função que representa a integral indefinida de $f(
 
 ### a) Com auxílio de software, faça o gráfico da função f(t) para t<30.
 
-Para fazer o gráfico da função $$f(t) = 50e^{0.1t}$$ para $$t < 30$$, você pode usar um software de plotagem gráfica como o Matplotlib em Python. Aqui está um exemplo de código que você pode usar para gerar o gráfico:
+Para fazer o gráfico da função $f(t) = 50e^{0.1t}$ para $t < 30$, você pode usar um software de plotagem gráfica como o Matplotlib em Python. Aqui está um exemplo de código que você pode usar para gerar o gráfico:
 
 ```python
 import matplotlib.pyplot as plt
@@ -31,7 +31,7 @@ plt.show()
 
 ### b) Determine o número de meses necessário para dobrar a taxa de crescimento inicial do número de usuários da aplicação web.
 
-Para determinar o número de meses necessário para dobrar a taxa de crescimento inicial do número de usuários da aplicação web, precisamos resolver a equação $$50e^{0.1t} = 2 * 50$$ para $$t$$. Isso nos dá:
+Para determinar o número de meses necessário para dobrar a taxa de crescimento inicial do número de usuários da aplicação web, precisamos resolver a equação $50e^{0.1t} = 2 * 50$ para $t$. Isso nos dá:
 
 $$
 50e^{0.1t} = 100
