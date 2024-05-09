@@ -49,7 +49,7 @@ $$
 0.1t = \ln(2)
 $$
 
-Finalmente, resolvendo para $$t$$, obtemos:
+Finalmente, resolvendo para $t$, obtemos:
 
 $$
 t = \frac{\ln(2)}{0.1} \approx 6.93 \, \text{meses}
