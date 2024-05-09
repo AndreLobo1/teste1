@@ -75,7 +75,7 @@ $$
 F(t) = 500e^{0.1t} + C
 $$
 
-onde $$C$$ é a constante de integração. O valor de $$C$$ depende das condições iniciais do problema. No nosso caso, como o número de usuários era nulo no lançamento da aplicação, temos:
+onde $C$ é a constante de integração. O valor de $C$ depende das condições iniciais do problema. No nosso caso, como o número de usuários era nulo no lançamento da aplicação, temos:
 $C = 0$
 
 A constante de integração representa o valor inicial da função acumulada de usuários ao longo do tempo. Se tivéssemos um número diferente de usuários no lançamento da aplicação, esse número seria representado pela constante $C$.
