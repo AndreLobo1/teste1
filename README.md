@@ -1,6 +1,6 @@
 # Atividade Avaliativa de Cálculos de Área
 
-Este repositório é dedicado à atividade avaliativa de cálculos de área, correspondente à quarta semana da segunda sprint do módulo 2 do [Inteli - Instituto de Tecnologia e Liderança](https://www.inteli.edu.br/). O foco desta atividade é a **matemática e a física**. Neste contexto, aceitamos o desafio de explorar como as integrais indefinidas e definidas podem ser aplicadas em problemas de aplicação web.
+Este repositório é dedicado à atividade avaliativa de cálculos de área, correspondente à quarta semana da segunda sprint do segundo módulo do [Inteli - Instituto de Tecnologia e Liderança](https://www.inteli.edu.br/). O foco desta atividade é a **matemática e a física**. Neste contexto, aceitamos o desafio de explorar como as integrais indefinidas e definidas podem ser aplicadas em problemas de aplicação web.
 
 ## Problema 1 – Modelagem do Crescimento de Usuários em uma Aplicação Web
 
@@ -29,9 +29,7 @@ plt.show()
 
 Este código cria um conjunto de valores para t variando de 0 a 30, calcula os correspondentes valores de $f(t)$, e então plota $f(t)$ versus $t$. O resultado é um gráfico que visualiza como a taxa de crescimento de usuários muda ao longo do tempo.
 
-![Gráfico de f(t)](graph.png)
-
-
+![Gráfico de f(t)](assets/grafico.png)
 
 ### b) Determine o número de meses necessário para dobrar a taxa de crescimento inicial do número de usuários da aplicação web.
 
